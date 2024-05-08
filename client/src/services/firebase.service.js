@@ -10,18 +10,18 @@ class FirebaseService {
         this._ADMIN_TOKEN = 'FIREBASE ADMIN ROKEN';
 
         const firebaseConfig = {
-            apiKey: "FIREBASE API KEY",
-            authDomain: "FIREBASE DOMAIN",
-            projectId: "oxhunt-bdbe4",
-            storageBucket: "GOOGLE STORAGE BUCKET",
-            messagingSenderId: "MESSAGING SENDER ID",
-            appId: "APP ID",
-            measurementId: "GOOGLE ANALYTICS ID"
+            apiKey: "AIzaSyDFLnBswk1cr450F5O77GAjBqHnQTV6q6s",
+            authDomain: "the-zodiac-tour-hunt.firebaseapp.com",
+            projectId: "the-zodiac-tour-hunt",
+            storageBucket: "the-zodiac-tour-hunt.appspot.com",
+            messagingSenderId: "415270318218",
+            appId: "1:415270318218:web:a097588fd57ad039f87d73",
+            measurementId: "G-M9FQGJYGLN"
         };
         
         // Initialize Firebase
         const fireApp = initializeApp(firebaseConfig);
-
+        const analytics = getAnalytics(app);
         this.fireFunctions = getFunctions(fireApp, 'europe-west1');
         
         if ('development' === Constants.ENV) {
