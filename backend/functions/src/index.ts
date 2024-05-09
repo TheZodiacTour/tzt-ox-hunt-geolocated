@@ -6,11 +6,11 @@ const EMAIL_REG_EXP = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".
 const CONSTANTS = {
     COLLECTION_USERS: 'USERS',
     COLLECTION_SETTINGS: 'SETTINGS',
-    APP_NAME: 'OxHunt',
+    APP_NAME: 'TZT ox-hunt',
     SECRET: 'JWT SECRET',
     ADMIN_ID: 'admin',
     // TODO Change SENDGRID_API_KEY
-    SENDGRID_API_KEY: 'SENDGRID API KEY',
+    SENDGRID_API_KEY: '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',
 }
 
 const regionalFunctions = functions.region('united-states');
