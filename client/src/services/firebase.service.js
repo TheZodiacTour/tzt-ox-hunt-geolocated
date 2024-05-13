@@ -7,7 +7,7 @@ class FirebaseService {
 
     constructor() {
 
-        this._ADMIN_TOKEN = 'FIREBASE ADMIN ROKEN';
+        this._ADMIN_TOKEN = 'FIREBASE ADMIN TOKEN';
 
         const firebaseConfig = {
             apiKey: "AIzaSyDFLnBswk1cr450F5O77GAjBqHnQTV6q6s",
