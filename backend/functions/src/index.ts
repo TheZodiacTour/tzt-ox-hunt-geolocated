@@ -10,7 +10,7 @@ const CONSTANTS = {
     SECRET: 'JWT SECRET',
     ADMIN_ID: 'admin',
     // TODO Change SENDGRID_API_KEY
-    SENDGRID_API_KEY: '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',
+    SENDGRID_API_KEY: 'SENDGRID API KEY',
 }
 
 const regionalFunctions = functions.region('united-states');
