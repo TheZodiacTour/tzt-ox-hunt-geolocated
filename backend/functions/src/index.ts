@@ -13,7 +13,7 @@ const CONSTANTS = {
     SENDGRID_API_KEY: 'SENDGRID API KEY',
 }
 
-const regionalFunctions = functions.region('united-states');
+const regionalFunctions = functions.region('nam5');
 admin.initializeApp();
 
 
